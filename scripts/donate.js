@@ -22,7 +22,7 @@ function payWithPaystack(e) {
       alert(message)
 
       setInterval(() => {
-        window.location = 'https://hoseafavour123.github.io/accf-website/'
+        window.location = 'https://hoseafavour123.github.io/grace-dispensers-site/'
       })
     },
   })
