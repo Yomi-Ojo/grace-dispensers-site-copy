@@ -23,11 +23,6 @@
     text-align: center;
 }
 
-.about-us-container img {
-    width: 100%;
-    height: 100vh;
-}
-
 .mission, .images-container {
     background: #fff;
     padding-top: 5px;
@@ -93,6 +88,19 @@
     left: 17%;
 }
 
+.mission .proper-purpose h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mission .prayer-req {
+    display: block;
+}
+
+.mission .proper-purpose{
+    display: block;
+}
+
 .mission div .units p {
     display: inline-block;
     margin: 10px;
@@ -131,6 +139,13 @@
 .images-container .images .image:first-child {
     display: block;
 }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
 
 
 /*.next, .prev {
@@ -236,4 +251,13 @@
         margin: 0;
 
     }
+
+    .mission-vision-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .content, .image {
+        padding: 10px;
+      }
 }

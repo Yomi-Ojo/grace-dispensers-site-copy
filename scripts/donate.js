@@ -12,8 +12,7 @@ function payWithPaystack(e) {
     key: 'pk_test_16cb22cefa9ae19dba682e8b326589eb93c777a9', // Replace with your public key
     email: document.getElementById('email').value,
     amount: document.getElementById('amount').value * 100,
-    ref: '' + Math.floor(Math.random() * 1000000000 + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
-    // label: "Optional string that replaces customer email"
+    ref: '' + Math.floor(Math.random() * 1000000000 + 1),
     onClose: function () {
       alert('Window closed.')
     },
