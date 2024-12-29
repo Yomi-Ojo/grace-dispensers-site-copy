@@ -247,6 +247,30 @@ header {
     text-decoration: underline;
 }
 
+
+.past-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5% 10%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+}
+
+.past-container img {
+    width: 640px;
+    height: 300px;
+    margin-right: 2%;
+}
+
+.past-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+
 .about-inner{
     display: flex;
     justify-content: flex-start;
@@ -674,6 +698,19 @@ footer{
     .event {
         width: 100%;
         margin-top: 20px;
+    }
+
+    .past-container {
+        display: block;
+    }
+
+    .past-container img {
+        width: 340px;
+        height: 340px;
+    }
+
+    .past-inner {
+        padding: 10px;
     }
 
     .about-inner {
