@@ -705,8 +705,9 @@ footer{
     }
 
     .past-container img {
-        width: 340px;
+        width: 310px;
         height: 340px;
+        margin-right: auto;
     }
 
     .past-inner {
